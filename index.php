@@ -1,5 +1,17 @@
 <?php
 
+/**
+ * Use this method to create a one level array with param parent_id , id
+ * to multi level hierarchy array . If you need to create a  hierarchy array
+ * from a certain parent id , you can change param $parentID when calling
+ * makeTree for needed.
+ *
+ * @param array $inputArray
+ * @param int $parentID = 0
+ *
+ * @return array
+ */
+
 function makeTree(array $inputArray,$parentID = 0) {
 
     $outputArray = [];
