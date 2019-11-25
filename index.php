@@ -1,6 +1,6 @@
 <?php
 
-function makeTree(array $inputArray, $parentID = 0 ) {
+function makeTree(array $inputArray,$parentID = 0) {
 
     $outputArray = [];
 
